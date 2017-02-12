@@ -1,0 +1,27 @@
+{
+  "name": "uravugal",
+  "scripts": {
+  },
+  "env": {
+    "GRAPHENEDB_BOLT_PASSWORD": {
+      "required": true
+    },
+    "GRAPHENEDB_BOLT_URL": {
+      "required": true
+    },
+    "GRAPHENEDB_BOLT_USER": {
+      "required": true
+    },
+    "GRAPHENEDB_URL": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "graphenedb"
+  ],
+  "buildpacks": [
+
+  ]
+}
